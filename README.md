@@ -32,6 +32,8 @@ Enter your AWS Access Key ID, Secret Access Key, region (e.g., us-east-1), and o
 3. Create Kinesis Data Stream
 - Navigate to Kinesis in AWS Console
 - Create data stream named "RealTimeDataStream" with 1 shard
+![image](https://github.com/user-attachments/assets/759d5bff-6515-4914-9740-12ed56c06790)
+
 
 4. Install Required Python Packages
 - Navigate to the project directory
@@ -47,6 +49,11 @@ pip install -r requirements.txt
 - Create Lambda function named "ProcessKinesisData"
 - Add Kinesis trigger with batch size 100
 - Deploy the Lambda code from src/lambda/process_data.py
+![image](https://github.com/user-attachments/assets/9c4e5040-6511-4b4f-9e2a-be2ff283afe2)
+
+![image](https://github.com/user-attachments/assets/6a5e5d36-05a1-4f02-ab2e-0f709ea0a50d)
+
+
 
 7. Configure QuickSight
 - Sign up for QuickSight Standard Edition
@@ -59,6 +66,8 @@ pip install -r requirements.txt
    - Check CloudWatch logs for Lambda processing
    - Verify new files in S3 bucket
    - Refresh QuickSight dashboard
+![image](https://github.com/user-attachments/assets/b730be01-3288-4d7b-ab7f-8b88cce3c7ba)
+
 
 2. Test Different Scenarios:
    - Increase data volume (modify sleep time)
