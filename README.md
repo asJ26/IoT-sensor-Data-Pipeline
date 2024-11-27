@@ -51,7 +51,7 @@ pip install -r requirements.txt
 - Deploy the Lambda code from src/lambda/process_data.py
 ![image](https://github.com/user-attachments/assets/9c4e5040-6511-4b4f-9e2a-be2ff283afe2)
 
-![image](https://github.com/user-attachments/assets/6a5e5d36-05a1-4f02-ab2e-0f709ea0a50d)
+
 
 
 
